@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav .nav-right-section {
+    width: 25rem;
+    height:auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav .nav-right-section a {
+    margin-right:1rem ;
+    color: #000000;
+    
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .nav-right-section img {
+    margin-left: 1rem;
+    border-radius: 5rem;
+}
+
+main {
+    margin-top: 15rem ;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+
+}
+
+main .main-logo img {
+    width: 30rem;
+}
+
+main .main-input {
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem; 
+}
+
+main .main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main .main-input input {
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}   
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #051393e6;
+}
+
+main .main-input .icono-busqueda {
+    background-image: url("https://icon-library.com/images/search-icon-transparent/search-icon-transparent-15.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+main .main-input .micro-icon {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAAD/CAMAAAB2B+IJAAAA21BMVEX///9ChfTqQzX7vAU0qFP7uACDxZMqpk2MyJrqQTM9g/T+6Lj3xMHpNCLqPzDpLxsXokLr9u4pevM1f/T8wgAoqlNHifRPjfXpOSjpNzf0pqHvPDOZh1AvffPa5fxEh/Rwn/b50tDpLBeOsvj++PfrUUX62tjvfHXympT1+f7t8/6rxfmaufjK2vvU4fyiv/mHrfdZkvX+9OD+68D75eT94aroIwX2uLT1r6v7wij8zmHtZVv81X7znJfvf3j+7sxomfW5zvrxfQ7yhCzsW1GXvpJplUyNj1ans4w8DP1WAAADYklEQVR4nO3aW1ebQBSG4YQ0saBAC7aibU7EmKi19RCPsRqtrf3/v6ghMIDJkK7oWs7E9T6XAxf7c2YzxKFUAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgM5293ZVl/BCu/ujuud5/mh/iZN06r5Vjlh+/ZvqYp6pYfnljN9sqC7oOQ48q5xn1b+rLmlxDa88rb6nuqiFNa2ZFNaG6qIW9cOfCTGejDvVZS1IFqJcbqouazF3dWmKJWvwQ/lc+Mu1axzN9vakv1uqC1tIUxpi2Z5S8qlYtvZ+2yk+qy5sIaTQByn0QQp9kEIfbzvF23gbJMXrI4U+SKEPUuiDFPoghT5IoY+CFG/j/7R6pzhejZ2IgYIFlaVor8UGagqWOq3GKmJgoyDFSNzQde3I2bmSeuVWq5WYGGgVnMIcihsc04jYa2oKlrpNUlTFgPSItVz295Pr264Rp2grqljmWKQ4TgYkZ/YRT5zb7yQpXJ36oiRSnIoB6cFedqx3EcQpQiXVFrlM+uJKDBzIJsNLP2gZOpMQTldNuQWuK1ONITsr9jvi4iBZUEFfSbVFTmaWVGljOoZ1lF77mSworR5RpbQxKpfpyO5UjPoovbQdxM9ZM9xWUOocV2JJrWZjh7kvpCyvk13oJ1Ph3Lx+oXOJHSPb+MYaLc/3Lcvy614r96Wa6ArD1Wm3mBBPqewxFdm767RGrc7dk++7uo6h4xMqkr6E5BpcrpesJ+16O5JORvV27n1929B2KnKdsX6/M+e2vmgKI9SuKyLXcYz1X5th8VK5SUMEvVesbQEixHgfKNiTBw+iJwzT0WyvEKI32yhE9IfuypbLT9dJQ4Tzlp1SJ9UkxLhK92FqWW1vOcmWPWkKnX7kTTm930zrdGyz3xarZnDec3MZjHBLaZ3/cX6WK9UMbDd46PWGhuvaTu6C5iFKpXa29JMmHjONp2M6L6fYoGsb8wWOto2d0w+dORnMsKfpI3bKYFiYw7QNDV+eCrSHYWDOZnBsQ/uOeGLQN90g39amY4fD5ZmH1OCiF9hfYkHo3KwtRz9I/P7z+HXs8e/SJojUVj5FVt6rLuRFaivvIqTQACn0QQp9kEIfpNBH7UOsprqQF/koqC4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxf4BM0E/rWhTIGwAAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3.4rem;
+    height: 4.8rem;
+    cursor: pointer;
+}
+
+
+main .main-buttons {
+    width: 53rem;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+
+}
+
+main .main-buttons button {
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color:#5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 1.5rem;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2ff;
+    border-top: 1px solid #e4e4e4
+}
+
+footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 1rem;
+    color: #5f6368;
+}
+
